@@ -1,0 +1,13 @@
+CREATE DATABASE IF NOT EXISTS programadortest;
+
+USE programadortest;
+
+CREATE TABLE IF NOT EXISTS produtos (
+    id INT(11) AUTO_INCREMENT,
+    nome VARCHAR(255),
+    price DECIMAL(10, 2),
+    PRIMARY KEY (id)
+);
+
+INSERT INTO produtos VALUES (0, 'CURSO ESPECIALISTA', 2000);
+INSERT INTO produtos VALUES (0, 'CURSO FULLSTACK', 3500);
