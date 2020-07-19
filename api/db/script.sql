@@ -1,5 +1,5 @@
 CREATE DATABASE IF NOT EXISTS lililalalulu;
-USE admin;
+USER admin;
 
 CREATE TABLE IF NOT EXISTS products (
 id INT(11) AUTO_INCREMENT,
@@ -10,3 +10,5 @@ PRIMARY KEY (id)
 
 INVERT INTO products VALUE(0, 'Curso Especialista', 2500);
 INVERT INTO products VALUE(0, 'Curso FullStack', 3500);
+
+
